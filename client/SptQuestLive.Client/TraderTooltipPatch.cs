@@ -14,13 +14,17 @@ public class TraderTooltipPatch : ModulePatch
     [PatchPostfix]
     private static void PatchPostfix(TraderTooltip __instance, Profile.TraderInfo traderInfo)
     {
-        if (!ClientPlugin.DisableSalesVolumeRequirement || !VanillaTraders.Contains(traderInfo?.Id))
+        if (!ClientPlugin.DisableSalesVolumeRequirement)
         {
             return;
         }
 
-        __instance._moneySpent.gameObject.SetActive(false);
-        __instance._moneySpentRequired.gameObject.SetActive(false);
-        __instance._moneySpentMet.SetActive(false);
+        var show = !VanillaTraders.Contains(traderInfo?.Id);
+        __instance._moneySpent.gameObject.SetActive(show);
+        __instance._moneySpentRequired.gameObject.SetActive(show);
+        if (!show)
+        {
+            __instance._moneySpentMet.SetActive(false);
+        }
     }
 }

@@ -14,12 +14,13 @@ public class TradingPlayerPanelPatch : ModulePatch
     [PatchPostfix]
     private static void PatchPostfix(TradingPlayerPanel __instance, Profile.TraderInfo traderInfo)
     {
-        if (!ClientPlugin.DisableSalesVolumeRequirement || !VanillaTraders.Contains(traderInfo?.Id))
+        if (!ClientPlugin.DisableSalesVolumeRequirement)
         {
             return;
         }
 
-        __instance._currentMoney.gameObject.SetActive(false);
-        __instance._nextMoney.gameObject.SetActive(false);
+        var show = !VanillaTraders.Contains(traderInfo?.Id);
+        __instance._currentMoney.gameObject.SetActive(show);
+        __instance._nextMoney.gameObject.SetActive(show);
     }
 }
