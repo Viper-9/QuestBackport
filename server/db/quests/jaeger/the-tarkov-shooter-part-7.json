@@ -461,6 +461,97 @@
           "type": "Item",
           "unknown": false,
           "value": 1
+        },
+        {
+          "unknown": false,
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "availableInGameEditions": [],
+          "illustrationConfig": {
+            "image": "",
+            "bigImage": "",
+            "isBigImage": false
+          },
+          "isHidden": false,
+          "id": "6a6fb23fd6d234e8e18a1cc7",
+          "target": "76bf655d21ed688334195406",
+          "loyaltyLevel": 4,
+          "traderId": "5c0647fdd443bc2504c2d371",
+          "items": [
+            {
+              "_id": "76bf655d21ed688334195406",
+              "_tpl": "5bfea6e90db834001b7347f3",
+              "upd": {
+                "FireMode": {
+                  "FireMode": "single"
+                }
+              }
+            },
+            {
+              "_id": "7b4589b18590cbcce8d432f2",
+              "_tpl": "5ce69cbad7f00c00b61c5098",
+              "parentId": "76bf655d21ed688334195406",
+              "slotId": "mod_magazine"
+            },
+            {
+              "_id": "ca3097962ce58493699b1b4a",
+              "_tpl": "5cdeac22d7f00c000f26168f",
+              "parentId": "76bf655d21ed688334195406",
+              "slotId": "mod_stock"
+            },
+            {
+              "_id": "38904a8706573330318b53e8",
+              "_tpl": "5cdeac42d7f00c000d36ba73",
+              "parentId": "ca3097962ce58493699b1b4a",
+              "slotId": "mod_stock"
+            },
+            {
+              "_id": "d3f36b92526ada5f7c7af58a",
+              "_tpl": "5cdeac5cd7f00c000f261694",
+              "parentId": "ca3097962ce58493699b1b4a",
+              "slotId": "mod_pistol_grip"
+            },
+            {
+              "_id": "d14e767f632d11c62df944a9",
+              "_tpl": "5cdeaca5d7f00c00b61c4b70",
+              "parentId": "ca3097962ce58493699b1b4a",
+              "slotId": "mod_mount_000"
+            },
+            {
+              "_id": "b48752ea68a54585c04fc83d",
+              "_tpl": "5b7be47f5acfc400170e2dd2",
+              "parentId": "ca3097962ce58493699b1b4a",
+              "slotId": "mod_mount_001"
+            },
+            {
+              "_id": "79a28164346b011917cb2e83",
+              "_tpl": "5b7be47f5acfc400170e2dd2",
+              "parentId": "ca3097962ce58493699b1b4a",
+              "slotId": "mod_mount_002"
+            },
+            {
+              "_id": "168673d30cebf070ce130b01",
+              "_tpl": "5b7be47f5acfc400170e2dd2",
+              "parentId": "ca3097962ce58493699b1b4a",
+              "slotId": "mod_mount_003"
+            },
+            {
+              "_id": "7976b38368f8de72d445bfd1",
+              "_tpl": "5bfebc320db8340019668d79",
+              "parentId": "76bf655d21ed688334195406",
+              "slotId": "mod_barrel"
+            },
+            {
+              "_id": "b23f4e27b930deac2fedc006",
+              "_tpl": "5d270b3c8abbc3105335cfb8",
+              "parentId": "7976b38368f8de72d445bfd1",
+              "slotId": "mod_muzzle"
+            }
+          ],
+          "type": "AssortmentUnlock",
+          "index": 7
         }
       ]
     },

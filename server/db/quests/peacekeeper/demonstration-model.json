@@ -1,0 +1,194 @@
+{
+  "6a5cd2178fd7c2b201032f3f": {
+    "_id": "6a5cd2178fd7c2b201032f3f",
+    "traderId": "5935c25fb3acc3127c3d8cd9",
+    "location": "5704e5fad2720bc05b8b4567",
+    "image": "/files/quest/icon/5a27c50f86f7740b3d65e16a.jpg",
+    "type": "Elimination",
+    "isKey": false,
+    "restartable": false,
+    "instantComplete": false,
+    "secretQuest": false,
+    "canShowNotificationsInGame": true,
+    "rewards": {
+      "Started": [],
+      "Success": [
+        {
+          "unknown": false,
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "availableInGameEditions": [],
+          "illustrationConfig": {
+            "image": "",
+            "bigImage": "",
+            "isBigImage": false
+          },
+          "isHidden": false,
+          "id": "6a687b50666693ec925e56be",
+          "value": 28000,
+          "type": "Experience",
+          "index": 0
+        },
+        {
+          "unknown": false,
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "availableInGameEditions": [],
+          "illustrationConfig": {
+            "image": "",
+            "bigImage": "",
+            "isBigImage": false
+          },
+          "isHidden": false,
+          "id": "6a5cd2178fd7c2b201032f44",
+          "target": "5935c25fb3acc3127c3d8cd9",
+          "value": 0.75,
+          "type": "TraderStanding",
+          "index": 1
+        },
+        {
+          "unknown": false,
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "availableInGameEditions": [],
+          "illustrationConfig": {
+            "image": "",
+            "bigImage": "",
+            "isBigImage": false
+          },
+          "isHidden": false,
+          "id": "6a687b283fa8708a3a4498f4",
+          "target": "0ce1919197c25abec7982446",
+          "value": 1900,
+          "isEncoded": false,
+          "findInRaid": false,
+          "items": [
+            {
+              "_id": "0ce1919197c25abec7982446",
+              "_tpl": "5696686a4bdc2da3298b456a",
+              "upd": {
+                "StackObjectsCount": 1900
+              }
+            }
+          ],
+          "type": "Item",
+          "index": 2
+        }
+      ],
+      "Fail": []
+    },
+    "conditions": {
+      "AvailableForStart": [
+        {
+          "index": 0,
+          "dynamicLocale": false,
+          "visibilityConditions": [],
+          "globalQuestCounterId": "",
+          "parentId": "",
+          "id": "6a5cd23c88202b468cfd7d95",
+          "value": 3,
+          "compareMethod": ">=",
+          "target": "5935c25fb3acc3127c3d8cd9",
+          "conditionType": "TraderLoyalty"
+        }
+      ],
+      "AvailableForFinish": [
+        {
+          "index": 0,
+          "dynamicLocale": false,
+          "visibilityConditions": [],
+          "globalQuestCounterId": "",
+          "parentId": "",
+          "id": "6a5cd2178fd7c2b201032f41",
+          "value": 15,
+          "type": "Elimination",
+          "oneSessionOnly": false,
+          "completeInSeconds": 0,
+          "doNotResetIfCounterCompleted": false,
+          "isResetOnConditionFailed": false,
+          "isNecessary": false,
+          "counter": {
+            "id": "6a5cd2178fd7c2b201032f42",
+            "conditions": [
+              {
+                "id": "5a03169186f77451f779ece6",
+                "dynamicLocale": false,
+                "target": "Any",
+                "compareMethod": ">=",
+                "value": 1,
+                "weapon": [
+                  "6176aca650224f204c1da3fb",
+                  "5df8ce05b11454561e39243b",
+                  "6932abeb5403890d0c09c926",
+                  "5a367e5dc4a282000e49738f",
+                  "5dcbd56fdbd3d91b3e5468d5",
+                  "5b0bbe4e5acfc40dc528a72d",
+                  "6165ac306ef05c2ce828ef74",
+                  "689166b6c2d6fa42e7044756",
+                  "6183afd850224f204c1da514",
+                  "676176d362e0497044079f4c",
+                  "5aafa857e5b5b00018480968",
+                  "5f2a9575926fd9352339381f"
+                ],
+                "distance": {
+                  "value": 0,
+                  "compareMethod": ">="
+                },
+                "weaponModsInclusive": [],
+                "weaponModsExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyEquipmentExclusive": [],
+                "weaponCaliber": [],
+                "savageRole": [],
+                "bodyPart": [
+                  "Head"
+                ],
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "enemyHealthEffects": [],
+                "resetOnSessionEnd": false,
+                "conditionType": "Kills"
+              },
+              {
+                "id": "5a0316a886f77451f779ece9",
+                "dynamicLocale": false,
+                "target": [
+                  "RezervBase"
+                ],
+                "conditionType": "Location"
+              }
+            ]
+          },
+          "conditionType": "CounterCreator"
+        }
+      ],
+      "Fail": []
+    },
+    "side": "Pmc",
+    "status": 0,
+    "name": "6a5cd2178fd7c2b201032f3f name",
+    "note": "6a5cd2178fd7c2b201032f3f note",
+    "description": "6a5cd2178fd7c2b201032f3f description",
+    "successMessageText": "6a5cd2178fd7c2b201032f3f successMessageText",
+    "failMessageText": "6a5cd2178fd7c2b201032f3f failMessageText",
+    "startedMessageText": "6a5cd2178fd7c2b201032f3f startedMessageText",
+    "changeQuestMessageText": "6a5cd2178fd7c2b201032f3f changeQuestMessageText",
+    "acceptPlayerMessage": "6a5cd2178fd7c2b201032f3f acceptPlayerMessage",
+    "declinePlayerMessage": "6a5cd2178fd7c2b201032f3f declinePlayerMessage",
+    "completePlayerMessage": "6a5cd2178fd7c2b201032f3f completePlayerMessage",
+    "acceptanceAndFinishingSource": "eft",
+    "progressSource": "eft",
+    "rankingModes": [],
+    "gameModes": [],
+    "arenaLocations": [],
+    "QuestName": "Demonstration Model"
+  }
+}

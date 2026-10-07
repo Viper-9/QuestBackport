@@ -233,6 +233,68 @@
           "type": "Item",
           "unknown": false,
           "value": 2
+        },
+        {
+          "unknown": false,
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "availableInGameEditions": [],
+          "illustrationConfig": {
+            "image": "",
+            "bigImage": "",
+            "isBigImage": false
+          },
+          "isHidden": false,
+          "id": "6a6fb21d9f2e39e97da03906",
+          "target": "e29e26948d5701d8dc50d572",
+          "loyaltyLevel": 3,
+          "traderId": "5c0647fdd443bc2504c2d371",
+          "items": [
+            {
+              "_id": "e29e26948d5701d8dc50d572",
+              "_tpl": "5bfea6e90db834001b7347f3",
+              "upd": {
+                "Repairable": {
+                  "Durability": 100,
+                  "MaxDurability": 100
+                }
+              }
+            },
+            {
+              "_id": "042445c69188f2969de1fc8d",
+              "_tpl": "5d25a4a98abbc30b917421a4",
+              "parentId": "e29e26948d5701d8dc50d572",
+              "slotId": "mod_magazine"
+            },
+            {
+              "_id": "bdc06f24ec02a5bf6a50d06b",
+              "_tpl": "5d25d0ac8abbc3054f3e61f7",
+              "parentId": "e29e26948d5701d8dc50d572",
+              "slotId": "mod_stock"
+            },
+            {
+              "_id": "8258519bef48f5a3e764c842",
+              "_tpl": "671126a210d67adb5b08e925",
+              "parentId": "bdc06f24ec02a5bf6a50d06b",
+              "slotId": "mod_mount_000"
+            },
+            {
+              "_id": "b4f320791c33ff3659f34869",
+              "_tpl": "5bfebc320db8340019668d79",
+              "parentId": "e29e26948d5701d8dc50d572",
+              "slotId": "mod_barrel"
+            },
+            {
+              "_id": "5b5270f780fe8fa859b254d1",
+              "_tpl": "5d270b3c8abbc3105335cfb8",
+              "parentId": "b4f320791c33ff3659f34869",
+              "slotId": "mod_muzzle"
+            }
+          ],
+          "type": "AssortmentUnlock",
+          "index": 5
         }
       ]
     },

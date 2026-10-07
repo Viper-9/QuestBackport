@@ -1,0 +1,200 @@
+{
+  "6a5424ae135497b9df0c68be": {
+    "_id": "6a5424ae135497b9df0c68be",
+    "traderId": "54cb57776803fa99248b456e",
+    "location": "any",
+    "image": "/files/quest/icon/59c2742286f77475ec568d92.jpg",
+    "type": "PickUp",
+    "isKey": false,
+    "restartable": false,
+    "instantComplete": false,
+    "secretQuest": false,
+    "canShowNotificationsInGame": true,
+    "rewards": {
+      "Started": [],
+      "Success": [
+        {
+          "unknown": false,
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "availableInGameEditions": [],
+          "illustrationConfig": {
+            "image": "",
+            "bigImage": "",
+            "isBigImage": false
+          },
+          "isHidden": false,
+          "id": "6a6794b3fb960c7016c84547",
+          "value": 3000,
+          "type": "Experience",
+          "index": 0
+        },
+        {
+          "unknown": false,
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "availableInGameEditions": [],
+          "illustrationConfig": {
+            "image": "",
+            "bigImage": "",
+            "isBigImage": false
+          },
+          "isHidden": false,
+          "id": "6a5424ae135497b9df0c68c5",
+          "target": "54cb57776803fa99248b456e",
+          "value": 0.1,
+          "type": "TraderStanding",
+          "index": 1
+        },
+        {
+          "unknown": false,
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "availableInGameEditions": [],
+          "illustrationConfig": {
+            "image": "",
+            "bigImage": "",
+            "isBigImage": false
+          },
+          "isHidden": false,
+          "id": "6a6f9981dcc2152a59778572",
+          "target": "a53b1f7e12fa642b68ce08c2",
+          "value": 2,
+          "isEncoded": false,
+          "findInRaid": true,
+          "items": [
+            {
+              "_id": "113ae6da1f2808f918e7b1c8",
+              "_tpl": "5d1b3a5d86f774252167ba22",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "a53b1f7e12fa642b68ce08c2",
+              "_tpl": "5d1b3a5d86f774252167ba22",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "type": "Item",
+          "index": 2
+        },
+        {
+          "unknown": false,
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "availableInGameEditions": [],
+          "illustrationConfig": {
+            "image": "",
+            "bigImage": "",
+            "isBigImage": false
+          },
+          "isHidden": false,
+          "id": "6a6794a7b9766aa1fb07f9b4",
+          "target": "e0f80d9d39cd0e8628806ca9",
+          "value": 80000,
+          "isEncoded": false,
+          "findInRaid": false,
+          "items": [
+            {
+              "_id": "e0f80d9d39cd0e8628806ca9",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 80000
+              }
+            }
+          ],
+          "type": "Item",
+          "index": 3
+        }
+      ],
+      "Fail": []
+    },
+    "conditions": {
+      "AvailableForStart": [
+        {
+          "compareMethod": ">=",
+          "conditionType": "TraderLoyalty",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "655112672f08521234181d3f",
+          "index": 0,
+          "parentId": "",
+          "target": "54cb57776803fa99248b456e",
+          "value": 1,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForFinish": [
+        {
+          "index": 0,
+          "dynamicLocale": false,
+          "visibilityConditions": [],
+          "globalQuestCounterId": "",
+          "parentId": "",
+          "id": "6a5424ae135497b9df0c68c1",
+          "target": [
+            "5d1b3f2d86f774253763b735"
+          ],
+          "value": 5,
+          "minDurability": 0,
+          "maxDurability": 100,
+          "dogtagLevel": 0,
+          "onlyFoundInRaid": true,
+          "isEncoded": false,
+          "countInRaid": false,
+          "conditionType": "FindItem"
+        },
+        {
+          "index": 1,
+          "dynamicLocale": false,
+          "visibilityConditions": [],
+          "globalQuestCounterId": "",
+          "parentId": "",
+          "id": "6a5424ae135497b9df0c68c2",
+          "target": [
+            "5d1b3f2d86f774253763b735"
+          ],
+          "value": 5,
+          "minDurability": 0,
+          "maxDurability": 100,
+          "dogtagLevel": 0,
+          "onlyFoundInRaid": true,
+          "isEncoded": false,
+          "conditionType": "HandoverItem"
+        }
+      ],
+      "Fail": []
+    },
+    "side": "Pmc",
+    "status": 0,
+    "name": "6a5424ae135497b9df0c68be name",
+    "note": "6a5424ae135497b9df0c68be note",
+    "description": "6a5424ae135497b9df0c68be description",
+    "successMessageText": "6a5424ae135497b9df0c68be successMessageText",
+    "failMessageText": "6a5424ae135497b9df0c68be failMessageText",
+    "startedMessageText": "6a5424ae135497b9df0c68be startedMessageText",
+    "changeQuestMessageText": "6a5424ae135497b9df0c68be changeQuestMessageText",
+    "acceptPlayerMessage": "6a5424ae135497b9df0c68be acceptPlayerMessage",
+    "declinePlayerMessage": "6a5424ae135497b9df0c68be declinePlayerMessage",
+    "completePlayerMessage": "6a5424ae135497b9df0c68be completePlayerMessage",
+    "acceptanceAndFinishingSource": "eft",
+    "progressSource": "eft",
+    "rankingModes": [],
+    "gameModes": [],
+    "arenaLocations": [],
+    "QuestName": "Fall Ailment"
+  }
+}

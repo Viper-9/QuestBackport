@@ -145,6 +145,18 @@
         "_tpl": "56ea8222d2720b69698b4567",
         "parentId": "fb712e84108f03b50f15a04e",
         "slotId": "mod_bipod"
+      },
+      {
+        "_id": "ab6bd047c0c1632cc0475ac1",
+        "_tpl": "68bac6ca653ee6b1e406d978",
+        "parentId": "hideout",
+        "slotId": "hideout",
+        "upd": {
+          "UnlimitedCount": true,
+          "StackObjectsCount": 9999999,
+          "BuyRestrictionMax": 60,
+          "BuyRestrictionCurrent": 0
+        }
       }
     ],
     "barterScheme": {
@@ -171,12 +183,21 @@
             "_tpl": "5449016a4bdc2d6f028b456f"
           }
         ]
+      ],
+      "ab6bd047c0c1632cc0475ac1": [
+        [
+          {
+            "count": 2700,
+            "_tpl": "5449016a4bdc2d6f028b456f"
+          }
+        ]
       ]
     },
     "loyalLevelItems": {
       "a5d37f341c1b04824b327257": 4,
       "ef5a8edf8b8a70cf684346a2": 4,
-      "04fd1050abaee6cc35f64769": 2
+      "04fd1050abaee6cc35f64769": 2,
+      "ab6bd047c0c1632cc0475ac1": 4
     }
   },
   "5935c25fb3acc3127c3d8cd9": {
