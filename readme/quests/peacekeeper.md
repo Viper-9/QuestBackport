@@ -26,3 +26,5 @@
 - Revision - Reserve (개정 작업 - 리저브)
 - The Cult - Part 2 (사이비 종교 - 파트 2)
 - The Guide (안내자)
+- Secret Message (비밀 메시지)
+- Demonstration Model (시연용 모델)

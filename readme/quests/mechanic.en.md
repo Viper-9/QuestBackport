@@ -34,3 +34,5 @@
 - Needle in a Haystack
 - Offensive Reconnaissance
 - Shady Contractor
+- Goals and Means
+- Setting Priorities

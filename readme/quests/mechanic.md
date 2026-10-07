@@ -34,3 +34,5 @@
 - Needle in a Haystack (건초더미에서 바늘 찾기)
 - Offensive Reconnaissance (공격적 정찰)
 - Shady Contractor (수상한 계약업자)
+- Goals and Means (목표와 수단)
+- Setting Priorities (우선순위 정하기)

@@ -42,3 +42,5 @@
 - The Huntsman Path - Big Game
 - The Huntsman Path - Crooked Cop
 - The Huntsman Path - Secured Perimeter
+- The Huntsman Path - Woods Keeper
+- The Huntsman Path - Control

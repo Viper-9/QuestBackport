@@ -26,3 +26,5 @@
 - Revision - Reserve
 - The Cult - Part 2
 - The Guide
+- Secret Message
+- Demonstration Model

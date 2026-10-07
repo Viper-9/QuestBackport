@@ -35,3 +35,4 @@
 - Shaking Up the Teller (돈가방을 갖고 튀어라)
 - Shootout Picnic (사격 피크닉)
 - Special Comms (특수 통신)
+- Special Order (특별 제안)

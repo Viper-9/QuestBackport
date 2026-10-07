@@ -42,3 +42,5 @@
 - The Huntsman Path - Big Game (사냥꾼의 길 - 빅 게임)
 - The Huntsman Path - Crooked Cop (사냥꾼의 길 - 비리 경찰)
 - The Huntsman Path - Secured Perimeter (사냥꾼의 길 - 구역 확보)
+- The Huntsman Path - Woods Keeper (사냥꾼의 길 - 삼림의 보호자)
+- The Huntsman Path - Control (사냥꾼의 길 - 통제)
