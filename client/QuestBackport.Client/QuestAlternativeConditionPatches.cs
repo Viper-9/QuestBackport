@@ -10,7 +10,7 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 using SPT.Reflection.Patching;
 
-namespace SptQuestLive.Client;
+namespace QuestBackport.Client;
 
 [JsonConverter(typeof(StringEnumConverter))]
 public enum QuestAlternativeConditionOperator
@@ -39,7 +39,7 @@ public class QuestAlternativeConditionGroup
 public static class QuestAlternativeConditions
 {
     private const string ConfigRelativePath =
-        "SPT_Runtime/user/mods/sptQuestLive/db/QuestAlternativeConditionGroups.json";
+        "SPT_Runtime/user/mods/QuestBackport/db/QuestAlternativeConditionGroups.json";
 
     private static IReadOnlyDictionary<string, List<QuestAlternativeConditionGroup>> _groupsByQuest =
         new Dictionary<string, List<QuestAlternativeConditionGroup>>(StringComparer.OrdinalIgnoreCase);
@@ -73,13 +73,13 @@ public static class QuestAlternativeConditions
             if (Enabled)
             {
                 ClientPlugin.Logger?.LogDebug(
-                    $"[SptQuestLive.Client] loaded {groups.Count} alternative quest condition group(s)");
+                    $"[QuestBackport.Client] loaded {groups.Count} alternative quest condition group(s)");
             }
         }
         catch (Exception ex)
         {
             ClientPlugin.Logger?.LogError(
-                $"[SptQuestLive.Client] {configPath} 읽기 실패: {ex}");
+                $"[QuestBackport.Client] {configPath} 읽기 실패: {ex}");
         }
     }
 

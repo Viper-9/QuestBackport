@@ -4,12 +4,12 @@ using BepInEx;
 using BepInEx.Logging;
 using Newtonsoft.Json;
 
-namespace SptQuestLive.Client;
+namespace QuestBackport.Client;
 
-[BepInPlugin("com.viper.sptquestlive.client", "SptQuestLive Client", "1.0.4")]
+[BepInPlugin("com.viper.questbackport.client", "QuestBackport Client", "1.0.4")]
 public class ClientPlugin : BaseUnityPlugin
 {
-    private const string ServerConfigRelativePath = "SPT_Runtime/user/mods/sptQuestLive/db/Config.json";
+    private const string ServerConfigRelativePath = "SPT_Runtime/user/mods/QuestBackport/db/Config.json";
 
     internal static new ManualLogSource? Logger { get; private set; }
 
@@ -43,7 +43,7 @@ public class ClientPlugin : BaseUnityPlugin
 
         if (!File.Exists(configPath))
         {
-            Logger?.LogWarning($"[SptQuestLive.Client] {configPath} 를 찾지 못해 거래량 UI를 그대로 둡니다.");
+            Logger?.LogWarning($"[QuestBackport.Client] {configPath} 를 찾지 못해 거래량 UI를 그대로 둡니다.");
             return;
         }
 
@@ -53,11 +53,11 @@ public class ClientPlugin : BaseUnityPlugin
             var config = JsonConvert.DeserializeObject<ModConfig>(json);
             DisableSalesVolumeRequirement = config?.DisableSalesVolumeRequirement ?? false;
             QuestContentEnabled = config?.QuestContentEnabled ?? true;
-            Logger?.LogInfo($"[SptQuestLive.Client] disableSalesVolumeRequirement = {DisableSalesVolumeRequirement}");
+            Logger?.LogInfo($"[QuestBackport.Client] disableSalesVolumeRequirement = {DisableSalesVolumeRequirement}");
         }
         catch (Exception ex)
         {
-            Logger?.LogError($"[SptQuestLive.Client] {configPath} 읽기 실패: {ex.Message}");
+            Logger?.LogError($"[QuestBackport.Client] {configPath} 읽기 실패: {ex.Message}");
         }
     }
 

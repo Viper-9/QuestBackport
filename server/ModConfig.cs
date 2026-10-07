@@ -2,7 +2,7 @@ using System.Reflection;
 using System.Text.Json.Serialization;
 using SPTarkov.Server.Core.Helpers.Server;
 
-namespace SptQuestLive;
+namespace QuestBackport;
 
 public record ModConfigData
 {

@@ -8,7 +8,7 @@ using SPTarkov.Server.Core.Models.Common;
 using SPTarkov.Server.Core.Models.Enums;
 using SPTarkov.Server.Core.Models.Spt.Tables;
 
-namespace SptQuestLive;
+namespace QuestBackport;
 
 [Injectable(TypePriority = OnLoadOrder.PostLoad + 1)]
 public class TraderLevelUpPatchLoader(ModHelper modHelper) : IOnLoad
@@ -17,7 +17,7 @@ public class TraderLevelUpPatchLoader(ModHelper modHelper) : IOnLoad
     {
         TraderLevelUpPatch.Configure(modHelper);
 
-        var harmony = new Harmony("com.viper.sptquestlive");
+        var harmony = new Harmony("com.viper.questbackport");
         harmony.Patch(
             AccessTools.Method(typeof(TraderHelper), nameof(TraderHelper.LevelUp)),
             prefix: new HarmonyMethod(typeof(TraderLevelUpPatch), nameof(TraderLevelUpPatch.Prefix)));

@@ -1,4 +1,4 @@
-# SptQuestLive
+# QuestBackport
 
 **Language: [한국어](README.md) | [English](README.en.md)**
 
@@ -17,11 +17,13 @@ EFT는 퀘스트 구조나 연계, 상인 평판구조까지 대대적으로 바
 
 ## 설치
 
-1. [Releases](../../releases)에서 원하는 버전의 `sptQuestLive.zip`을 다운로드합니다.
-2. 압축을 풀어 나오는 `SPT_Runtime`, `BepInEx` 폴더를 SPT 설치 루트(예: `C:\SPT`, `SPT.Server.exe`가 든 `SPT_Runtime` 폴더의 상위 폴더)에 그대로 덮어씁니다. (`SPT_Runtime/user/mods/sptQuestLive/...`, `BepInEx/plugins/SptQuestLive.Client/...` 구조)
+1. [Releases](../../releases)에서 원하는 버전의 `QuestBackport.zip`을 다운로드합니다.
+2. 압축을 풀어 나오는 `SPT_Runtime`, `BepInEx` 폴더를 SPT 설치 루트(예: `C:\SPT`, `SPT.Server.exe`가 든 `SPT_Runtime` 폴더의 상위 폴더)에 그대로 덮어씁니다. (`SPT_Runtime/user/mods/QuestBackport/...`, `BepInEx/plugins/QuestBackport.Client/...` 구조)
    - `BepInEx` 폴더에 들어있는 건 [설정 플래그](#설정-플래그-dbconfigjson)와 연동되는 UI 처리를 위한 클라이언트 플러그인입니다. 그냥 같이 깔아두면 되고, 나머지 기능에는 영향이 없습니다.
-   - `SPT_Runtime` 폴더 자체가 서버 루트인 구조(구버전 SPT)라면, 압축 안의 `SPT_Runtime\user\mods\sptQuestLive` 폴더만 서버 루트의 `user\mods\`에 복사해도 됩니다.
+   - `SPT_Runtime` 폴더 자체가 서버 루트인 구조(구버전 SPT)라면, 압축 안의 `SPT_Runtime\user\mods\QuestBackport` 폴더만 서버 루트의 `user\mods\`에 복사해도 됩니다.
 3. 서버를 재시작합니다.
+
+> **SptQuestLive에서 업그레이드하는 경우:** 이 모드의 이전 이름은 SptQuestLive입니다. 설치 전에 `SPT_Runtime/user/mods/sptQuestLive` 폴더와 `BepInEx/plugins/SptQuestLive.Client` 폴더를 먼저 삭제하세요. 남겨두면 두 버전이 동시에 로드됩니다.
 
 ## 수정 범위 제외
 

@@ -12,7 +12,7 @@ using SPTarkov.Server.Core.Models.Spt.Tables;
 using SPTarkov.Server.Core.Services.InRaid;
 using IOPath = System.IO.Path;
 
-namespace SptQuestLive;
+namespace QuestBackport;
 
 [JsonConverter(typeof(JsonStringEnumConverter))]
 public enum QuestAlternativeConditionOperator
@@ -78,7 +78,7 @@ public class QuestAlternativeConditionLoader(
         var targetMethod = AccessTools.Method(typeof(LocationLifecycleService), "ProcessPostRaidQuests")
             ?? throw new MissingMethodException(nameof(LocationLifecycleService), "ProcessPostRaidQuests");
 
-        var harmony = new Harmony("com.viper.sptquestlive");
+        var harmony = new Harmony("com.viper.questbackport");
         harmony.Patch(
             targetMethod,
             postfix: new HarmonyMethod(

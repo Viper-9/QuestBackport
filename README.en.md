@@ -1,4 +1,4 @@
-# SptQuestLive
+# QuestBackport
 
 **Language: [한국어](README.md) | [English](README.en.md)**
 
@@ -16,11 +16,13 @@ Since EFT has drastically changed quest structure, quest chains, and the trader 
 
 ## Installation
 
-1. Download `sptQuestLive.zip` for the version you want from [Releases](../../releases).
-2. Extract it and overwrite the resulting `SPT_Runtime` and `BepInEx` folders into your SPT install root (e.g. `C:\SPT`, the parent folder of the `SPT_Runtime` folder containing `SPT.Server.exe`). (`SPT_Runtime/user/mods/sptQuestLive/...` and `BepInEx/plugins/SptQuestLive.Client/...` structure)
+1. Download `QuestBackport.zip` for the version you want from [Releases](../../releases).
+2. Extract it and overwrite the resulting `SPT_Runtime` and `BepInEx` folders into your SPT install root (e.g. `C:\SPT`, the parent folder of the `SPT_Runtime` folder containing `SPT.Server.exe`). (`SPT_Runtime/user/mods/QuestBackport/...` and `BepInEx/plugins/QuestBackport.Client/...` structure)
    - The `BepInEx` folder is the client plugin that handles the UI side of the [config flags](#config-flags-dbconfigjson) below. Just install it alongside the rest — it doesn't affect anything else.
-   - If your server root *is* the `SPT_Runtime` folder itself (older SPT layout), you can instead copy just the `SPT_Runtime\user\mods\sptQuestLive` folder from the zip into your server root's `user\mods\`.
+   - If your server root *is* the `SPT_Runtime` folder itself (older SPT layout), you can instead copy just the `SPT_Runtime\user\mods\QuestBackport` folder from the zip into your server root's `user\mods\`.
 3. Restart the server.
+
+> **Upgrading from SptQuestLive:** this mod was previously named SptQuestLive. Delete the `SPT_Runtime/user/mods/sptQuestLive` and `BepInEx/plugins/SptQuestLive.Client` folders before installing, otherwise both versions will load at the same time.
 
 ## Excluded from scope
 

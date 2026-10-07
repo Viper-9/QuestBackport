@@ -7,7 +7,7 @@ using SPTarkov.Server.Core.Models.Common;
 using SPTarkov.Server.Core.Models.Eft.Common;
 using SPTarkov.Server.Core.Models.Spt.Tables;
 
-namespace SptQuestLive;
+namespace QuestBackport;
 
 public record StaticLootAddition
 {

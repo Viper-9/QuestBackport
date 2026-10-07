@@ -10,7 +10,7 @@ using SPTarkov.Server.Core.Models.Eft.Hideout;
 using SPTarkov.Server.Core.Models.Enums.Hideout;
 using SPTarkov.Server.Core.Models.Spt.Tables;
 
-namespace SptQuestLive;
+namespace QuestBackport;
 
 [Injectable(TypePriority = OnLoadOrder.PostLoad + 1)]
 public class HideoutFixesLoader(
@@ -49,7 +49,7 @@ public class HideoutFixesLoader(
             }
         }
 
-        var harmony = new Harmony("com.viper.sptquestlive");
+        var harmony = new Harmony("com.viper.questbackport");
         harmony.Patch(
             AccessTools.Method(typeof(RewardHelper), nameof(RewardHelper.GetRewardProductionMatch)),
             prefix: new HarmonyMethod(typeof(ProductionRewardMatchPatch), nameof(ProductionRewardMatchPatch.Prefix)));

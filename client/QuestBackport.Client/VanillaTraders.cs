@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace SptQuestLive.Client;
+namespace QuestBackport.Client;
 
 internal static class VanillaTraders
 {

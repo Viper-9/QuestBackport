@@ -5,7 +5,7 @@ using EFT.Quests;
 using HarmonyLib;
 using SPT.Reflection.Patching;
 
-namespace SptQuestLive.Client;
+namespace QuestBackport.Client;
 
 public class HandoverItemCachePatch : ModulePatch
 {

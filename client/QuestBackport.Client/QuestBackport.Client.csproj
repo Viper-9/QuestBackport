@@ -1,9 +1,9 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <AssemblyName>SptQuestLive.Client</AssemblyName>
+    <AssemblyName>QuestBackport.Client</AssemblyName>
     <TargetFramework>netstandard2.1</TargetFramework>
-    <RootNamespace>SptQuestLive.Client</RootNamespace>
+    <RootNamespace>QuestBackport.Client</RootNamespace>
     <LangVersion>latest</LangVersion>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>

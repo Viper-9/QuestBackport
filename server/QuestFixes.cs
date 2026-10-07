@@ -10,7 +10,7 @@ using SPTarkov.Server.Core.Models.Spt.Mod;
 using SPTarkov.Server.Core.Models.Spt.Tables;
 using WTTServerCommonLib.Services;
 
-namespace SptQuestLive;
+namespace QuestBackport;
 
 public record ModMetadata : IModMetadata
 {
@@ -18,8 +18,8 @@ public record ModMetadata : IModMetadata
         Assembly.GetExecutingAssembly().GetCustomAttribute<AssemblyInformationalVersionAttribute>()?.InformationalVersion
         ?? "0.0.0";
 
-    public string ModGuid { get; init; } = "com.viper.sptquestlive";
-    public string Name { get; init; } = "SptQuestLive";
+    public string ModGuid { get; init; } = "com.viper.questbackport";
+    public string Name { get; init; } = "QuestBackport";
     public string Author { get; init; } = "Viper-9";
     public List<string>? Contributors { get; init; }
     public SemanticVersioning.Version Version { get; init; } = new(AssemblyVersion);

@@ -4,7 +4,7 @@ using SPTarkov.Server.Core.DI;
 using SPTarkov.Server.Core.Helpers.Server;
 using SPTarkov.Server.Core.Models.Spt.Tables;
 
-namespace SptQuestLive;
+namespace QuestBackport;
 
 [Injectable(TypePriority = OnLoadOrder.PostLoad + 1)]
 public class LocaleFixesLoader(

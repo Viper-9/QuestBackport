@@ -9,7 +9,7 @@ using SPTarkov.Server.Core.Models.Spt.Config;
 using SPTarkov.Server.Core.Models.Spt.Tables;
 using IOPath = System.IO.Path;
 
-namespace SptQuestLive;
+namespace QuestBackport;
 
 public record QuestFactionRestrictionConfig
 {
