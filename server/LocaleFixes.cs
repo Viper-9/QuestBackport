@@ -51,13 +51,21 @@ public class LocaleFixesLoader(
 
         foreach (var (langCode, lazyLoadedLocale) in localeTable.Global)
         {
-            var overrides = overridesByLang.GetValueOrDefault(langCode, fallback);
+            var overrides = overridesByLang.GetValueOrDefault(langCode);
 
             lazyLoadedLocale.AddTransformer(localeData =>
             {
-                foreach (var (key, value) in overrides)
+                foreach (var (key, value) in fallback)
                 {
                     localeData![key] = value;
+                }
+
+                if (overrides != null && !ReferenceEquals(overrides, fallback))
+                {
+                    foreach (var (key, value) in overrides)
+                    {
+                        localeData![key] = value;
+                    }
                 }
 
                 return localeData;
