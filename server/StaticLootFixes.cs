@@ -94,6 +94,7 @@ public class StaticLootAdditionLoader(
                 }
 
                 var distribution = details.ItemDistribution?.ToList() ?? new List<ItemDistribution>();
+                distribution.RemoveAll(entry => entry.Tpl == itemTpl);
                 distribution.Add(new ItemDistribution
                 {
                     Tpl = itemTpl,
