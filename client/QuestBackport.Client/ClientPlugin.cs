@@ -6,7 +6,7 @@ using Newtonsoft.Json;
 
 namespace QuestBackport.Client;
 
-[BepInPlugin("com.viper.questbackport.client", "QuestBackport Client", "1.0.5")]
+[BepInPlugin("com.viper.questbackport.client", "QuestBackport Client", "1.0.6")]
 public class ClientPlugin : BaseUnityPlugin
 {
     private const string ServerConfigRelativePath = "SPT_Runtime/user/mods/QuestBackport/db/Config.json";
