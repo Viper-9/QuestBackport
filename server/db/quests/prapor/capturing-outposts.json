@@ -125,7 +125,7 @@
           "isHidden": false,
           "type": "Experience",
           "unknown": false,
-          "value": 10000
+          "value": 69999
         },
         {
           "availableInGameEditions": [],
@@ -138,31 +138,7 @@
           "target": "54cb50c76803fa8b248b4571",
           "type": "TraderStanding",
           "unknown": false,
-          "value": 0.25
-        },
-        {
-          "availableInGameEditions": [],
-          "findInRaid": false,
-          "gameMode": [
-            "regular",
-            "pve"
-          ],
-          "id": "6a600bea4e0d6f6c5dafeae2",
-          "isEncoded": false,
-          "isHidden": false,
-          "items": [
-            {
-              "_id": "069b95c56a4eadbd5918ffaa",
-              "_tpl": "5449016a4bdc2d6f028b456f",
-              "upd": {
-                "StackObjectsCount": 165000
-              }
-            }
-          ],
-          "target": "069b95c56a4eadbd5918ffaa",
-          "type": "Item",
-          "unknown": false,
-          "value": 165000
+          "value": 0.03
         },
         {
           "availableInGameEditions": [],

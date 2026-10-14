@@ -244,7 +244,7 @@
           "isHidden": false,
           "type": "Experience",
           "unknown": false,
-          "value": 10000
+          "value": 18000
         },
         {
           "availableInGameEditions": [],
@@ -257,7 +257,7 @@
           "target": "54cb50c76803fa8b248b4571",
           "type": "TraderStanding",
           "unknown": false,
-          "value": 0.25
+          "value": 0.03
         },
         {
           "availableInGameEditions": [],
@@ -274,14 +274,14 @@
               "_id": "68a9695194f6582e591404b5",
               "_tpl": "5449016a4bdc2d6f028b456f",
               "upd": {
-                "StackObjectsCount": 165000
+                "StackObjectsCount": 75000
               }
             }
           ],
           "target": "68a9695194f6582e591404b5",
           "type": "Item",
           "unknown": false,
-          "value": 165000
+          "value": 75000
         },
         {
           "availableInGameEditions": [],

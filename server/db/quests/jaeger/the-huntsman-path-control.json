@@ -27,7 +27,7 @@
           },
           "isHidden": false,
           "id": "6a4532e48e82d8ffea0c3eb4",
-          "value": 65000,
+          "value": 26700,
           "type": "Experience",
           "index": 0
         },
@@ -46,7 +46,7 @@
           "isHidden": false,
           "id": "6a5ffb67b72a4f8b20b2ea16",
           "target": "5c0647fdd443bc2504c2d371",
-          "value": 1.5,
+          "value": 0.05,
           "type": "TraderStanding",
           "index": 1
         },
@@ -65,7 +65,7 @@
           "isHidden": false,
           "id": "6a4532e48e82d8ffea0c3eb6",
           "target": "836f17f087688f14a1023132",
-          "value": 400000,
+          "value": 100000,
           "isEncoded": false,
           "findInRaid": false,
           "items": [
@@ -73,7 +73,7 @@
               "_id": "836f17f087688f14a1023132",
               "_tpl": "5449016a4bdc2d6f028b456f",
               "upd": {
-                "StackObjectsCount": 400000
+                "StackObjectsCount": 100000
               }
             }
           ],
